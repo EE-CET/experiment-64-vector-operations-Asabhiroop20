@@ -34,7 +34,7 @@ public class VectorOperations {
                     break;
                     
                 case 4:
-                    // ✅ Correct display format
+                
                     System.out.println(students);
                     break;
                     
