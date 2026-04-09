@@ -15,33 +15,27 @@ public class VectorOperations {
             
             switch (choice) {
                 case 1:
-                    // Add
                     String nameToAdd = scanner.next();
                     students.add(nameToAdd);
                     System.out.println("Added");
                     break;
                     
                 case 2:
-                    // Insert
                     String nameToInsert = scanner.next();
                     int index = scanner.nextInt();
-                    students.add(index - 1, nameToInsert); 
+                    students.add(index - 1, nameToInsert);
                     System.out.println("Inserted");
                     break;
                     
                 case 3:
-                    // Remove
                     String nameToRemove = scanner.next();
                     students.remove(nameToRemove);
                     System.out.println("Removed");
                     break;
                     
                 case 4:
-                    // Display
-                    for (String s : students) {
-                        System.out.print(s + " ");
-                    }
-                    System.out.println();
+                    // ✅ Correct display format
+                    System.out.println(students);
                     break;
                     
                 default:
