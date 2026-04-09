@@ -25,7 +25,7 @@ public class VectorOperations {
                     // Insert
                     String nameToInsert = scanner.next();
                     int index = scanner.nextInt();
-                    students.add(index - 1, nameToInsert); // 1-based → 0-based
+                    students.add(index - 1, nameToInsert); 
                     System.out.println("Inserted");
                     break;
                     
